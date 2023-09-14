@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    height: 100vh; /* Altura del 100% de la ventana visible */
+    margin: 0; /* Elimina el margen predeterminado del cuerpo */
+    background-color: #f0f0f0; /* Color de fondo de la página */
+    background-color: rgb(190, 198, 207);
+  }
+
+.cuadro1 {
+    width: 250px;
+    height: 400px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5%;
+    margin-bottom: 100px;
+    text-align: center;
+    
+   
+  }
+  
+  .cuadro2 {
+    width: 100%;
+    height: 60%;
+    background-color: #f0f0f0;
+    border-radius: 2px ;
+  }
+  
+  .cuadro2 img {
+    width: 100%; /* La imagen ocupa todo el ancho del contenedor */
+    height: 100%; /* La imagen ocupa todo el alto del contenedor */
+    border-radius: 8px; /* Esquinas redondeadas para la imagen (ajústalo según tus preferencias) */
+    display: block; /* Asegura que la imagen sea un elemento de bloque */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+    }
+
+  .cuadro1 p {
+    margin-top: 10px; /* Espacio superior para separar el texto de la imagen */
+  }
+
+  h3{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(23, 23, 23);
+} 
+
+p{
+ color: rgb(105, 105, 105);
+}
